@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+}
+
+#container {
+    margin:auto;
+    display:grid;
+    height: 600px;
+    width: 600px;
+    border: black;
+    border-style: solid;
+}
+
+.cell {
+    background-color: black;
+    opacity: 0;
+}
+
+.selected {
+    border: yellow;
+    border-style: solid;
+    border-width: 5px;
+}
